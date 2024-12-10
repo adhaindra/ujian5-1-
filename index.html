@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iklan Tas Kulit Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Tas Kulit Premium</h1>
+            <p>Elegan, Tahan Lama, dan Bergaya</p>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Kenapa Memilih Tas Kulit Kami?</h2>
+            <p>Tas kulit kami dirancang dengan bahan berkualitas tinggi, jahitan presisi, dan gaya modern yang cocok untuk berbagai kebutuhan Anda.</p>
+            <div class="feature-cards">
+                <div class="card">
+                    <h3>Bahan Kulit Asli</h3>
+                    <p>Dibuat dari 100% kulit asli berkualitas tinggi.</p>
+                </div>
+                <div class="card">
+                    <h3>Garansi 1 Tahun</h3>
+                    <p>Nikmati garansi resmi untuk produk Anda.</p>
+                </div>
+                <div class="card">
+                    <h3>Diskon Spesial</h3>
+                    <p>Diskon eksklusif untuk pemesanan hari ini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Galeri Produk</h2>
+            <div class="gallery-items">
+                <div class="item">
+                    <img src="https://images.bloombergtechnoz.com/data/2024/01/image-20240123132604.jpg" alt="Tas Model 1">
+                    <p>Tas Model 1</p>
+                </div>
+                <div class="item">
+                    <img src="https://images.bloombergtechnoz.com/data/2024/01/image-20240123130535.jpg" alt="Tas Model 2">
+                    <p>Tas Model 2</p>
+                </div>
+                <div class="item">
+                    <img src="https://images.bloombergtechnoz.com/data/2024/01/image-20240123131501.jpg" alt="Tas Model 3">
+                    <p>Tas Model 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Form -->
+    <section id="paymentForm" class="payment-form">
+        <div class="container">
+            <h2>Formulir Pembayaran</h2>
+            <form action="save_lead.php" method="POST">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Alamat Pengiriman:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <label for="product">Pilih Tas:</label>
+                <select id="product" name="product" required>
+                    <option value="Tas Model 1">Tas Model 1 - Rp500,000</option>
+                    <option value="Tas Model 2">Tas Model 2 - Rp550,000</option>
+                    <option value="Tas Model 3">Tas Model 3 - Rp600,000</option>
+                </select>
+
+                <label for="payment">Metode Pembayaran:</label>
+                <select id="payment" name="payment" required>
+                    <option value="Transfer Bank">Transfer Bank</option>
+                    <option value="COD">Cash on Delivery (COD)</option>
+                </select>
+
+                <button type="submit">Kirim Pesanan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tas Kulit Premium. Semua Hak Dilindungi.</p>
+            <ul class="footer-links">
+                <li><a href="#features">Kenapa Memilih Kami?</a></li>
+                <li><a href="#gallery">Galeri Produk</a></li>
+                <li><a href="#paymentForm">Pesan Sekarang</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
